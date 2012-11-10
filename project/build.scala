@@ -20,7 +20,7 @@ object build extends Build {
 
       publishArtifact in packageDoc := false,
 
-      scalaVersion := "2.9.1",
+      scalaVersion := "2.9.2",
 
       // uncomment the following line to include the *.proto files in the packaged jar
       // unmanagedResourceDirectories in Compile <+= (sourceDirectory in scalaBuffConfig).identity,
